@@ -686,6 +686,11 @@ section {
     }
     .about {
         .flex {
+            .image {
+                img {
+                    padding: 1rem;
+                }
+            }
             .content {
                 .logo {
                     font-size: 10rem;
