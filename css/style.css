@@ -858,6 +858,9 @@ section {
   .home .content p {
     font-size: 1.8rem;
   }
+  .about .flex .image img {
+    padding: 1rem;
+  }
   .about .flex .content .logo {
     font-size: 10rem;
     top: 30rem;
