@@ -14,6 +14,11 @@ window.onscroll = () => {
     // Show/Hide Header When scroll down Or Up
     scrollY > 900 ? header.classList.add('active') : header.classList.remove('active');
     scrollY > 30 ? rocket.classList.add('active') : rocket.classList.remove('active');
+
+    let value = window.scrollY / 20;
+    document.querySelector('.cloud-1').style.right = `${-value}%`;
+    document.querySelector('.cloud-2').style.left = `${-value}%`;
+    document.querySelector('.moon').style.marginTop = `${-value}%`;
 }
 
 // Services Slider
